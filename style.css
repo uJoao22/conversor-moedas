@@ -1,0 +1,96 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #2C2C2C;
+}
+
+#cabeçalho{
+    background: #9657A5;
+    width: 375px;
+    height: 66px;
+    margin: 70px auto 0 auto;
+}
+
+h1{
+    color: #F4F4F4;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#caixa-principal{
+    background: #E5E5E5;
+    width: 375px;
+    padding: 24px;
+    margin: 0 auto 0 auto;
+}
+
+.paragrafo{
+    margin-bottom: 6px;
+    color: #777777;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.select, #input{
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 327px;
+    margin-bottom: 23px;
+    outline: none; /* Some a borda de quando eu clicar */
+    cursor: pointer;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.select{
+    appearance: none; /* Some a setinha */
+}
+
+#botao{
+    background: #CDD728;
+    border-radius: 25px;
+    display: block;
+    height: 48px;
+    width: 327px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 23px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #F4F4F4;
+    outline: none;
+}
+
+#botao:active{
+    opacity: 0.6;
+}
+
+#caixa-interna{
+    border: 1px solid #9657A5;
+    border-radius: 4px;
+    padding: 12px 0 12px 0;
+}
+
+.caixa-menor{
+    text-align: center;
+}
+
+#seta{ /* Dica para centralizar uma imagem */
+    display: block;
+    margin: 15px auto 15px auto;
+}
+
+.paragrafo-negrito{
+    font-weight: bold;
+    font-size: 20px;
+}
